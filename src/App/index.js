@@ -3,6 +3,7 @@ import "./App.css";
 import logo from "../assets/logo.svg";
 //import { app, appHeader, appLink } from "./styles";
 import text from "../assets/test.ryan";
+import AppLogo from "./AppLogo";
 
 export default () => {
     useEffect(() => {
@@ -14,6 +15,7 @@ export default () => {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
+                {/* <AppLogo src={logo} alt="logo" /> */}
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
                 </p>

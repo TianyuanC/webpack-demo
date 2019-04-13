@@ -1,6 +1,10 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const path = require("path");
 
 module.exports = {
+    devServer: {
+        port: 1234
+    },
     module: {
         rules: [
             {
@@ -9,6 +13,26 @@ module.exports = {
                 use: {
                     loader: "babel-loader"
                 }
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.svg$/,
+                use: [
+                    {
+                        loader: "file-loader"
+                    }
+                ]
+            },
+            {
+                test: /\.ryan$/,
+                use: [
+                    {
+                        loader: path.resolve("./loader/ryan.js")
+                    }
+                ]
             }
         ]
     },

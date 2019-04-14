@@ -1,10 +1,17 @@
-# Webpack Demo
+# Demo
 
-Set up `create-react-app` from bottom up as part of the Webpack exercises
+## Webpack
 
-## Goal
+-   Set up `create-react-app` from bottom up as part of the Webpack exercises
+-   Four loaders plus two plugins
+-   [Loaders](https://tianyuanc.github.io/knowledge-652-5/#6)
+-   [Plugins](https://tianyuanc.github.io/knowledge-652-5/#7)
 
--   Use plugins
+## Styled-component
+
+-   `AppLogo` class
+-   keyframes animation
+-   Access to props, so we can spin clockwise/counter-clockwise
 
 ## Launch
 

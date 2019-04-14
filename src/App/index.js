@@ -15,7 +15,8 @@ export default () => {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                {/* <AppLogo src={logo} alt="logo" /> */}
+                {/* <AppLogo src={logo} alt="logo" reverse={false} />
+                <AppLogo src={logo} alt="logo" reverse={true} /> */}
                 <p>
                     Edit <code>src/App.js</code> and save to reload.
                 </p>
@@ -32,21 +33,20 @@ export default () => {
         </div>
     );
 };
-{
-    /* <div className="App" style={app}>
-    <header className="App-header" style={appHeader}>
-        <p>
-            Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-            className="App-link"
-            style={appLink}
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Learn React
-        </a>
-    </header>
-</div>; */
-}
+
+//   <div className="App" style={app}>
+//     <header className="App-header" style={appHeader}>
+//         <p>
+//             Edit <code>src/App.js</code> and save to reload.
+//         </p>
+//         <a
+//             className="App-link"
+//             style={appLink}
+//             href="https://reactjs.org"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//         >
+//             Learn React
+//         </a>
+//     </header>
+// </div>
